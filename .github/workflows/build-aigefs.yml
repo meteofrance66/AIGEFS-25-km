@@ -2,7 +2,7 @@ name: Produire cartes et tableaux AIGEFS
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 5,11,17,23 * * *'
+    - cron: "39 2 * * *"
 permissions:
   contents: write
 concurrency:
