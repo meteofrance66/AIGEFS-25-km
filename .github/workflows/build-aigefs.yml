@@ -1,8 +1,7 @@
 name: Produire cartes et tableaux AIGEFS
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "39 2 * * *"
+  # Pas de planification pour l'instant : lancement à la main (workflow_dispatch).
 permissions:
   contents: write
 concurrency:
