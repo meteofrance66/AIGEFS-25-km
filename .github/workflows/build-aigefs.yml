@@ -2,7 +2,7 @@ name: Produire cartes et tableaux AIGEFS
 on:
   schedule:
     # 1 run par jour (AIGEFS 00Z), à une heure différente des autres modèles.
-    - cron: "15 7 * * *"
+    - cron: "15 8 * * *"
   workflow_dispatch:
   # Pas de planification pour l'instant : lancement à la main (workflow_dispatch).
 permissions:
